@@ -58,7 +58,6 @@ header {
   .grid-item {
     flex: 0 0 400px;
     margin: 5px;
-    
     height: 300px;
   }
 
@@ -72,4 +71,8 @@ header {
 
   .border-thing {
     border: 5px solid red;
+  }
+
+  .project-article-image {
+    
   }
