@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bfrancis.io</title>
+    <title>Blog Post - bfrancis.io</title>
     <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 min-h-screen flex flex-col">
   <header>
@@ -52,15 +53,110 @@
         </div>
       </div>
     </nav>
-</header>
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-      <div>
-         <h1>Title here (center this)</h1>
-         <img src="" alt="">
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12">
+    <article>
+      <!-- Header Section -->
+      <header class="mb-8 text-center">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">
+          The Art of Modern Web Design: Creating Beautiful Digital Experiences
+        </h1>
+        <div class="flex items-center justify-center text-gray-600 text-sm">
+          <time datetime="2025-10-10">October 10, 2025</time>
+          <span class="mx-2">•</span>
+          <span>8 min read</span>
+        </div>
+      </header>
+
+      <!-- Featured Image -->
+      <div class="mb-12 rounded-lg overflow-hidden shadow-lg">
+        <img 
+          src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&h=600&fit=crop" 
+          alt="Blog post featured image"
+          class="w-full h-96 object-cover"
+        >
       </div>
+
+      <!-- Table of Contents -->
+      <nav class="bg-white border border-gray-200 rounded-lg p-6 mb-12">
+        <h2 class="text-xl font-semibold text-gray-900 mb-4">Table of Contents</h2>
+        <ol class="space-y-2">
+          <li>
+            <a href="#introduction" class="text-blue-600 hover:text-blue-800 hover:underline">
+              1. Introduction to Modern Design
+            </a>
+          </li>
+          <li>
+            <a href="#principles" class="text-blue-600 hover:text-blue-800 hover:underline">
+              2. Key Design Principles
+            </a>
+          </li>
+          <li>
+            <a href="#tools" class="text-blue-600 hover:text-blue-800 hover:underline">
+              3. Essential Tools and Technologies
+            </a>
+          </li>
+          <li>
+            <a href="#best-practices" class="text-blue-600 hover:text-blue-800 hover:underline">
+              4. Best Practices for Implementation
+            </a>
+          </li>
+          <li>
+            <a href="#conclusion" class="text-blue-600 hover:text-blue-800 hover:underline">
+              5. Conclusion and Next Steps
+            </a>
+          </li>
+        </ol>
+      </nav>
+
+      <!-- Blog Content -->
+      <div class="prose prose-lg max-w-none">
+        <section id="introduction" class="mb-10">
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">Introduction to Modern Design</h2>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p class="text-gray-700 leading-relaxed">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </section>
+
+        <section id="principles" class="mb-10">
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">Key Design Principles</h2>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+          <p class="text-gray-700 leading-relaxed">
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          </p>
+        </section>
+
+        <section id="tools" class="mb-10">
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">Essential Tools and Technologies</h2>
+          <p class="text-gray-700 leading-relaxed">
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
+          </p>
+        </section>
+
+        <section id="best-practices" class="mb-10">
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">Best Practices for Implementation</h2>
+          <p class="text-gray-700 leading-relaxed">
+            Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.
+          </p>
+        </section>
+
+        <section id="conclusion" class="mb-10">
+          <h2 class="text-2xl font-bold text-gray-900 mb-4">Conclusion and Next Steps</h2>
+          <p class="text-gray-700 leading-relaxed">
+            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+          </p>
+        </section>
+      </div>
+    </article>
   </main>
 
-  <footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-auto text-left">
+  <footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-auto text-left py-8">
     <p>&copy; 2025 - bfrancis.io</p>
   </footer>
 </body>
