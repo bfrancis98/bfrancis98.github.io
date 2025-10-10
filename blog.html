@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bfrancis.io</title>
+    <title>Blog - bfrancis.io</title>
     <link rel="stylesheet" href="output.css">
 </head>
 <body class="bg-gray-50 min-h-screen flex flex-col">
@@ -47,19 +47,142 @@
       </div>
     </nav>
   </header>
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-      <div class="flex justify-center py-16">
-        <h1 class="text-3xl font-bold text-gray-900">Featured Posts</h1>
-           <img src="" alt="">
-      </div>
-      <section>
-        <h1 class="text-xl font-bold text-gray-900">Recent Posts</h1>
-      </div>
-    </main>
 
-    <footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-auto text-left">
-      <p>&copy; 2025 - bfrancis.io</p>
-    </footer>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12">
+    <!-- Featured Posts Section -->
+    <section class="mb-16">
+      <div class="text-center mb-12">
+        <h1 class="text-3xl font-bold text-gray-900">Featured Posts</h1>
+      </div>
+      
+      <!-- Featured Posts Grid -->
+      <div class="flex flex-wrap justify-center gap-8">
+        <!-- Featured Post 1 -->
+        <a href="blog-post-template.html" class="group flex flex-col items-center hidden">
+          <div class="w-48 h-36 bg-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 mb-4">
+            <img 
+              src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&h=600&fit=crop" 
+              alt="Blog post thumbnail"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            >
+          </div>
+          <h2 class="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition text-center">Getting Started with Web Development</h2>
+        </a>
+
+        <!-- Featured Post 2 -->
+        <a href="#" class="group flex flex-col items-center hidden">
+          <div class="w-48 h-36 bg-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 mb-4">
+            <img 
+              src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=600&fit=crop" 
+              alt="Blog post thumbnail"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            >
+          </div>
+          <h2 class="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition text-center">Understanding Modern JavaScript</h2>
+        </a>
+
+        <!-- Featured Post 3 -->
+        <a href="#" class="group flex flex-col items-center hidden">
+          <div class="w-48 h-36 bg-gray-200 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 mb-4">
+            <img 
+              src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop" 
+              alt="Blog post thumbnail"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            >
+          </div>
+          <h2 class="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition text-center">CSS Grid vs Flexbox Guide</h2>
+        </a>
+      </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section>
+      <div class="mb-8">
+        <h2 class="text-2xl font-bold text-gray-900">Recent Posts</h2>
+      </div>
+      
+      <div class="space-y-4">
+        <!-- Recent Post 1 -->
+        <a href="#" class="group flex items-center bg-white rounded-lg shadow hover:shadow-lg transition duration-300 overflow-hidden hidden">
+          <div class="w-32 h-24 flex-shrink-0 bg-gray-200 overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=200&h=150&fit=crop" 
+              alt="Blog post thumbnail"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            >
+          </div>
+          <div class="flex-grow px-8 py-4 flex justify-between items-center">
+            <h3 class="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition">Building Responsive Websites</h3>
+            <span class="text-sm text-gray-500">Oct 2025</span>
+          </div>
+        </a>
+
+        <!-- Recent Post 2 -->
+        <a href="#" class="group flex items-center bg-white rounded-lg shadow hover:shadow-lg transition duration-300 overflow-hidden hidden">
+          <div class="w-32 h-24 flex-shrink-0 bg-gray-200 overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&h=150&fit=crop" 
+              alt="Blog post thumbnail"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            >
+          </div>
+          <div class="flex-grow px-8 py-4 flex justify-between items-center">
+            <h3 class="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition">Tailwind CSS Best Practices</h3>
+            <span class="text-sm text-gray-500">Sep 2025</span>
+          </div>
+        </a>
+
+        <!-- Recent Post 3 -->
+        <a href="#" class="group flex items-center bg-white rounded-lg shadow hover:shadow-lg transition duration-300 overflow-hidden hidden">
+          <div class="w-32 h-24 flex-shrink-0 bg-gray-200 overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=200&h=150&fit=crop" 
+              alt="Blog post thumbnail"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            >
+          </div>
+          <div class="flex-grow px-8 py-4 flex justify-between items-center">
+            <h3 class="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition">Introduction to React Hooks</h3>
+            <span class="text-sm text-gray-500">Aug 2025</span>
+          </div>
+        </a>
+
+        <!-- Recent Post 4 -->
+        <a href="#" class="group flex items-center bg-white rounded-lg shadow hover:shadow-lg transition duration-300 overflow-hidden hidden">
+          <div class="w-32 h-24 flex-shrink-0 bg-gray-200 overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1557821552-17105176677c?w=200&h=150&fit=crop" 
+              alt="Blog post thumbnail"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            >
+          </div>
+          <div class="flex-grow px-8 py-4 flex justify-between items-center">
+            <h3 class="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition">Debugging JavaScript Like a Pro</h3>
+            <span class="text-sm text-gray-500">Jul 2025</span>
+          </div>
+        </a>
+
+        <!-- Recent Post 5 -->
+        <a href="#" class="group flex items-center bg-white rounded-lg shadow hover:shadow-lg transition duration-300 overflow-hidden hidden">
+          <div class="w-32 h-24 flex-shrink-0 bg-gray-200 overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=200&h=150&fit=crop" 
+              alt="Blog post thumbnail"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            >
+          </div>
+          <div class="flex-grow px-8 py-4 flex justify-between items-center">
+            <h3 class="text-lg font-semibold text-gray-900 group-hover:text-blue-600 transition">API Integration Best Practices</h3>
+            <span class="text-sm text-gray-500">Jun 2025</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-auto text-left py-8">
+    <p>&copy; 2025 - bfrancis.io | <a href="mailto:brandon@bfrancis.io" class="text-blue-600 hover:text-blue-800">brandon@bfrancis.io</a></p>
+  </footer>
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
